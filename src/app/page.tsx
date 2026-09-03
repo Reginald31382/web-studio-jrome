@@ -831,7 +831,7 @@ export default function Home() {
         <div className="mx-auto flex max-w-7xl flex-col justify-between gap-6 md:flex-row md:items-center">
           <div>
             <div className="text-lg font-bold tracking-[-0.04em]">
-              JROME<span className="text-cyan-400">.</span>WEB
+              J.ROME<span className="text-cyan-400">.</span>WEB
             </div>
             <p className="mt-2 text-xs text-white/35">
               Websites built for your business.
