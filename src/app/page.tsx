@@ -10,7 +10,7 @@ const services = [
     description:
       "Professional websites that help your business look credible, explain what you do, and turn visitors into customers.",
     features: ["Custom design", "Mobile responsive", "Contact forms"],
-    price: "Starting at $XXX",
+    price: "From $200",
   },
   {
     number: "02",
@@ -22,7 +22,7 @@ const services = [
       "Shopping functionality",
       "Payment integration",
     ],
-    price: "Starting at $XXX",
+    price: "From $500",
   },
   {
     number: "03",
@@ -30,7 +30,7 @@ const services = [
     description:
       "Give an outdated website a fresh, modern look that works better on phones and makes your business easier to find.",
     features: ["Modern UI", "Responsive redesign", "Performance improvements"],
-    price: "Starting at $XXX",
+    price: "Let's talk",
   },
   {
     number: "04",
@@ -423,8 +423,9 @@ export default function Home() {
             </div>
 
             <p className="max-w-md text-sm leading-6 text-white/45">
-              Whether you need a simple online presence or a custom digital
-              experience, I can help bring your idea to life.
+              From a simple business website to a custom digital experience, I
+              build websites designed around your goals, your customers, and
+              your budget.
             </p>
           </div>
 
