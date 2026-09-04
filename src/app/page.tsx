@@ -636,7 +636,7 @@ export default function Home() {
                     {project.description}
                   </p>
 
-                  <div className="mt-4 text-sm font-semibold text-cyan-400">
+                  <div className="mt-4 text-sm font-semibold text-cyan-400 cursor-pointer">
                     View Project →
                   </div>
                 </div>
