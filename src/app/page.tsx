@@ -827,7 +827,7 @@ export default function Home() {
 
           <h2 className="text-5xl font-semibold leading-[1.05] tracking-[-0.055em] sm:text-6xl lg:text-7xl">
             Ready to put your business{""}
-            <span className="text-cyan-400">online?</span>
+            <span className="text-cyan-400"> online?</span>
           </h2>
 
           <p className="mx-auto mt-8 max-w-xl text-lg leading-8 text-white/45">
