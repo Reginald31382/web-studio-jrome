@@ -183,7 +183,7 @@ export default function Home() {
                 <span className="text-cyan-400">works.</span>
               </h1>
 
-              <p className="mt-8 max-w-xl text-lg leading-8 text-white/55">
+              <p className="mt-8 max-w-xl text-lg leading-8 text-white/55 text-center">
                 I build fast, modern websites for small businesses,
                 entrepreneurs, and organizations without the expensive agency
                 price tag.
@@ -208,7 +208,7 @@ export default function Home() {
                 </a>
               </div>
 
-              <div className="mt-12 flex flex-wrap gap-x-6 gap-y-3 text-sm text-white/40">
+              <div className="mt-12 flex flex-wrap gap-x-6 gap-y-3 text-sm text-white/40 ">
                 <span>✓ Mobile Friendly</span>
                 <span>✓ Custom Built</span>
                 <span>✓ SEO Ready</span>
@@ -303,14 +303,14 @@ export default function Home() {
                 <span className="text-white/35">just a website.</span>
               </h2>
 
-              <p className="mt-6 max-w-md text-base leading-7 text-white/50">
+              <p className="mt-6 max-w-md text-base leading-7 text-white/50 text-center">
                 It needs a website that makes people trust your business,
                 understand your services, and take the next step.
               </p>
             </div>
 
             <div className="grid gap-4 sm:grid-cols-3">
-              <div className="rounded-2xl border border-white/10 bg-white/[0.025] p-6">
+              <div className="rounded-2xl border border-white/10 bg-white/2.5 p-6 text-center">
                 <div className="mb-8 text-2xl">💰</div>
                 <h3 className="text-lg font-semibold">Too Expensive</h3>
                 <p className="mt-3 text-sm leading-6 text-white/45">
@@ -319,7 +319,7 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="rounded-2xl border border-white/10 bg-white/[0.025] p-6">
+              <div className="rounded-2xl border border-white/10 bg-white/[0.025] p-6 text-center">
                 <div className="mb-8 text-2xl">🧩</div>
                 <h3 className="text-lg font-semibold">Too Complicated</h3>
                 <p className="mt-3 text-sm leading-6 text-white/45">
@@ -328,7 +328,7 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="rounded-2xl border border-white/10 bg-white/[0.025] p-6">
+              <div className="rounded-2xl border border-white/10 bg-white/[0.025] p-6 text-center">
                 <div className="mb-8 text-2xl">🕐</div>
                 <h3 className="text-lg font-semibold">Too Time Consuming</h3>
                 <p className="mt-3 text-sm leading-6 text-white/45">
@@ -358,7 +358,7 @@ export default function Home() {
                 </span>
               </h2>
 
-              <p className="mt-6 max-w-lg text-base leading-7 text-white/50">
+              <p className="mt-6 max-w-lg text-base leading-7 text-white/50 text-center">
                 No account managers. No being passed around between departments.
                 Just direct communication with the person building your website.
               </p>
@@ -372,7 +372,7 @@ export default function Home() {
             </div>
 
             <div className="grid gap-8 sm:grid-cols-2">
-              <div className="border-t border-white/10 pt-6">
+              <div className="border-t border-white/10 pt-6 text-center">
                 <div className="mb-5 text-2xl">🤝</div>
                 <h3 className="text-xl font-semibold">Personal Service</h3>
                 <p className="mt-3 text-sm leading-6 text-white/45">
@@ -380,7 +380,7 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="border-t border-white/10 pt-6">
+              <div className="border-t border-white/10 pt-6 text-center">
                 <div className="mb-5 text-2xl">💵</div>
                 <h3 className="text-xl font-semibold">Fair Pricing</h3>
                 <p className="mt-3 text-sm leading-6 text-white/45">
@@ -388,7 +388,7 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="border-t border-white/10 pt-6">
+              <div className="border-t border-white/10 pt-6 text-center">
                 <div className="mb-5 text-2xl">🚀</div>
                 <h3 className="text-xl font-semibold">Built To Grow</h3>
                 <p className="mt-3 text-sm leading-6 text-white/45">
@@ -396,7 +396,7 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="border-t border-white/10 pt-6">
+              <div className="border-t border-white/10 pt-6 text-center">
                 <div className="mb-5 text-2xl">⚡</div>
                 <h3 className="text-xl font-semibold">Modern Technology</h3>
                 <p className="mt-3 text-sm leading-6 text-white/45">
@@ -445,11 +445,11 @@ export default function Home() {
                   </span>
                 </div>
 
-                <h3 className="mt-12 text-2xl font-semibold tracking-tight">
+                <h3 className="mt-12 text-2xl font-semibold tracking-tight text-center">
                   {service.title}
                 </h3>
 
-                <p className="mt-4 max-w-md text-sm leading-6 text-white/45">
+                <p className="mt-4 max-w-md text-sm leading-6 text-white/45 text-center">
                   {service.description}
                 </p>
 
@@ -464,7 +464,7 @@ export default function Home() {
                   ))}
                 </div>
 
-                <div className="mt-10 border-t border-white/10 pt-5 text-sm text-white/35">
+                <div className="mt-10 border-t border-white/10 pt-5 text-sm text-white/35 text-center">
                   {service.price}
                 </div>
               </div>
@@ -583,7 +583,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 ">
             {projects.map((project) => (
               <button
                 key={project.title}
@@ -613,7 +613,7 @@ export default function Home() {
                     {project.title}
                   </h3>
 
-                  <p className="mt-3 text-sm leading-6 text-white/45">
+                  <p className="mt-3 text-sm leading-6 text-white/45 text-center">
                     {project.description}
                   </p>
 
@@ -653,13 +653,13 @@ export default function Home() {
                 {pricing.starter.price}
               </div>
 
-              <p className="mt-3 text-sm text-white/40">
+              <p className="mt-3 text-sm text-white/40 text-center">
                 For businesses that need a simple, professional online presence.
               </p>
 
               <div className="my-8 h-px bg-white/10" />
 
-              <ul className="space-y-4 text-sm text-white/60">
+              <ul className="space-y-4 text-sm text-white/60 text-center">
                 <li>✓ Up to X pages</li>
                 <li>✓ Mobile responsive</li>
                 <li>✓ Contact form</li>
@@ -689,14 +689,14 @@ export default function Home() {
                 {pricing.business.price}
               </div>
 
-              <p className="mt-3 text-sm text-white/40">
+              <p className="mt-3 text-sm text-white/40 text-center">
                 For businesses that need a more complete website with additional
                 pages and functionality.
               </p>
 
               <div className="my-8 h-px bg-white/10" />
 
-              <ul className="space-y-4 text-sm text-white/60">
+              <ul className="space-y-4 text-sm text-white/60 text-center">
                 <li>✓ Everything in Starter</li>
                 <li>✓ More pages</li>
                 <li>✓ Custom design</li>
@@ -720,13 +720,13 @@ export default function Home() {
                 Let's Talk
               </div>
 
-              <p className="mt-3 text-sm text-white/40">
+              <p className="mt-3 text-sm text-white/40 text-center">
                 For businesses that need something unique.
               </p>
 
               <div className="my-8 h-px bg-white/10" />
 
-              <ul className="space-y-4 text-sm text-white/60">
+              <ul className="space-y-4 text-sm text-white/60 text-center">
                 <li>✓ E-commerce</li>
                 <li>✓ Dashboards</li>
                 <li>✓ Booking systems</li>
