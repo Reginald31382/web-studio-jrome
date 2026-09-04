@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 
 const services = [
@@ -119,12 +119,31 @@ export default function Home() {
     (typeof projects)[number] | null
   >(null);
 
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "auto",
+    });
+  }, []);
+
   return (
     <main className="min-h-screen bg-[#080808] text-white">
       {/* NAVBAR */}
       <header className="fixed left-0 right-0 top-0 z-50 border-b border-white/[0.06] bg-[#080808]/80 backdrop-blur-xl">
         <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 lg:px-8">
-          <Link href="/" className="group">
+          <Link
+            href="/"
+            scroll={false}
+            onClick={() => {
+              window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: "smooth",
+              });
+            }}
+            className="group"
+          >
             <span className="text-xl font-bold tracking-[-0.04em]">
               J.ROME<span className="text-cyan-400">.</span>WEB
             </span>
@@ -807,7 +826,7 @@ export default function Home() {
           </div>
 
           <h2 className="text-5xl font-semibold leading-[1.05] tracking-[-0.055em] sm:text-6xl lg:text-7xl">
-            Ready to put your business{" "}
+            Ready to put your business
             <span className="text-cyan-400">online?</span>
           </h2>
 
