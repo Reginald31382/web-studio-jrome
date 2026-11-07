@@ -602,42 +602,50 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 ">
+          {/* PROJECT GRID */}
+          <div className="grid items-stretch gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {projects.map((project) => (
               <button
                 key={project.title}
                 onClick={() => setSelectedProject(project)}
-                className="group block text-left"
+                className="group flex h-full flex-col overflow-hidden rounded-2xl border border-white/10 bg-white/[0.02] text-left transition duration-300 hover:-translate-y-1 hover:border-cyan-400/40 hover:bg-white/[0.04] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400"
               >
-                <div className="relative aspect-[4/3] overflow-hidden rounded-2xl border border-white/10 bg-[#161616]">
+                {/* PROJECT IMAGE */}
+                <div className="relative aspect-[4/3] w-full shrink-0 overflow-hidden bg-[#161616]">
                   <img
                     src={project.image}
-                    alt={project.title}
-                    className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+                    alt={`${project.title} website preview`}
+                    className="h-full w-full object-cover object-top transition duration-700 group-hover:scale-105"
                   />
 
-                  <div className="absolute inset-0 bg-black/20 transition group-hover:bg-black/40" />
+                  <div className="absolute inset-0 bg-black/20 transition duration-300 group-hover:bg-black/40" />
 
-                  <div className="absolute right-5 top-5 flex h-10 w-10 items-center justify-center rounded-full bg-white text-black opacity-0 transition group-hover:opacity-100">
+                  <div className="absolute right-5 top-5 flex h-10 w-10 items-center justify-center rounded-full bg-white text-lg text-black opacity-0 shadow-lg transition duration-300 group-hover:opacity-100">
                     ↗
                   </div>
                 </div>
 
-                <div className="mt-6">
-                  <div className="text-xs uppercase tracking-[0.2em] text-cyan-400">
+                {/* PROJECT DETAILS */}
+                <div className="flex flex-1 flex-col p-6 sm:p-7">
+                  <div className="min-h-[18px] text-[10px] font-semibold uppercase tracking-[0.2em] text-cyan-400">
                     {project.category}
                   </div>
 
-                  <h3 className="mt-2 text-xl font-semibold">
+                  <h3 className="mt-3 min-h-[32px] text-xl font-semibold tracking-tight text-white">
                     {project.title}
                   </h3>
 
-                  <p className="mt-3 text-sm leading-6 text-white/45 text-center">
+                  <p className="mt-4 min-h-[96px] flex-1 text-sm leading-7 text-white/45">
                     {project.description}
                   </p>
 
-                  <div className="mt-4 text-sm font-semibold text-cyan-400 cursor-pointer">
-                    View Project →
+                  {/* ALIGNED PROJECT LINK */}
+                  <div className="mt-6 flex items-center justify-between border-t border-white/10 pt-5 text-sm font-semibold text-cyan-400">
+                    <span>View Project</span>
+
+                    <span className="transition duration-300 group-hover:translate-x-1">
+                      →
+                    </span>
                   </div>
                 </div>
               </button>
