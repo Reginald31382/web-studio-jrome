@@ -63,7 +63,7 @@ const projects = [
     title: "THE LOC ATELIER",
     category: "Loctician Booking Website",
     description:
-      "A luxury beauty and booking platform designed to showcase professional loc care services, elevate the client experience, and simplify appointment scheduling through an elegant, editorial-inspired design. Built with responsive layouts and an intuitive booking experience to connect clients with personalized loc care.",
+      "A luxury beauty and booking platform designed to showcase professional loc care services, elevate the client experience, and simplify appointment scheduling.",
     image: "/projects/loc-atelier.png",
     href: "https://loc-atelier.netlify.app",
   },
