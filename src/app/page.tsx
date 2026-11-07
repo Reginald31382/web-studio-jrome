@@ -49,7 +49,7 @@ const projects = [
     description:
       "A professional online presence designed to explain services and make it easy for customers to get in touch.",
     image: "/projects/rdnotary.jpg",
-    href: "https://rdnotary-n-signing.netlify.app/",
+    href: "https://rdnotary-n-signing.netlify.app",
   },
   {
     title: "JROME",
@@ -57,15 +57,15 @@ const projects = [
     description:
       "A modern apparel storefront built around brand identity, product presentation, and online shopping.",
     image: "/projects/jrome_stu.jpg",
-    href: "https://www.jrome-studios.com/",
+    href: "https://www.jrome-studios.com",
   },
   {
-    title: "LOCED",
-    category: "Educational Website",
+    title: "THE LOC ATELIER",
+    category: "Loctician Booking Website",
     description:
-      "A modern educational platform designed to help people understand their locs, learn proper care, and make informed decisions about their hair and scalp health.",
-    image: "/projects/loced.jpg",
-    href: "https://www.loced.org/",
+      "A luxury beauty and booking platform designed to showcase professional loc care services, elevate the client experience, and simplify appointment scheduling through an elegant, editorial-inspired design. Built with responsive layouts and an intuitive booking experience to connect clients with personalized loc care.",
+    image: "/projects/loc-atelier.png",
+    href: "https://loc-atelier.netlify.app",
   },
 ];
 

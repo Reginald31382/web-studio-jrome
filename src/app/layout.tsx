@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     title: "J.ROME.WEB | Websites That Do More",
     description:
       "Professional websites built around your goals, your customers, and your business.",
-    url: "https://yourdomain.com",
+    url: "https://web-studio-jrome.netlify.app",
     siteName: "J.ROME.WEB",
     type: "website",
   },
